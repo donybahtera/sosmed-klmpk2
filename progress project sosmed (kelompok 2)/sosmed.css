@@ -1,0 +1,749 @@
+/* halaman login.html */
+
+body {
+	background-color: #6FDB4C;
+	margin: 0px;
+}
+#gambarlogo img {
+	width: 350px;
+}
+#gambarlogo {
+	text-align: center;
+	margin-top: 30px;
+}
+#inputform {
+	font-family: Berlin Sans FB Demi;
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+#inputform .Username input {
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	width: 150px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+#inputform .Username {
+	margin-bottom: 10px;
+}
+#inputform .password input{
+	border-radius: 5px;
+	border: none;
+	text-align: center;
+	width: 150px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+#inputform .Login button{
+	border-radius: 5px;
+	background-color: #7BE662;
+	font-weight: bold;
+}
+#inputform .Login{
+	margin-top: 10px;
+}
+#inputform .createacc button{
+	border-radius: 5px;
+	background-color: #7BE662;
+	font-weight: bold;
+}
+#inputform .createacc{
+	margin-top: 10px; 
+}
+
+/* halaman createaccpencet.html */
+
+#bag1 {
+	width: 50%;
+	color: white;
+	background-color: #6FDB4C;
+	display: inline-block;
+	text-align: center;
+}
+#bag2 {
+	width: 50%;
+	height: 734px;
+	background-color: #7BE662;
+	display: inline-block;
+	position: absolute;
+}
+#bag1 .Username1 input{
+	border-radius: 5px;
+	border : none;
+	margin-top: 14px;
+	width: 200px;
+	height: 22px;
+	text-align: center;
+}
+#bag1 .password1 input{
+	border-radius: 5px;
+	border : none;
+	margin-top: 10px;
+	width: 200px;
+	height: 22px;
+	text-align: center;
+}
+#bag1 .Login1 button{
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 80px;
+	height: 20px;
+	background-color: #7BE662;
+	font-weight: bold;
+}
+#bag1 .createacc1 button{
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 120px;
+	height: 20px;
+	background-color: #7BE662;
+	font-weight: bold;
+}
+#bag2 .formcreateacc {
+	font-size: 30pt;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+#bag2 .flname {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#bag2 .flname input{
+	font-size: 10pt;
+	width: 175px;
+	height: 24px;
+	background-color: #6FDB4C;
+	border: none;
+	font-weight: bold;
+	padding-left: 4px;
+}
+#bag2 .email input{
+	font-size: 10pt;
+	width: 358px;
+	height: 24px;
+	background-color: #6FDB4C;
+	border: none;
+	font-weight: bold;
+	padding-left: 4px;
+	margin-top: 6px;
+	margin-left: 20px;
+}
+#bag2 .password2 input{
+	font-size: 10pt;
+	width: 358px;
+	height: 24px;
+	background-color: #6FDB4C;
+	border: none;
+	font-weight: bold;
+	padding-left: 4px;
+	margin-top: 6px;
+	margin-left: 20px;
+}
+#bag2 .BirthDate {
+	font-size: 20pt;
+	font-family: Calibri;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#bag2 .BirthD select{
+	width: 90px;
+	height: 20px;
+	margin-left: 20px;
+	background-color: #E5F1FB;
+	border-radius: 5px;
+	margin-top: 8px;
+}
+#bag2 .jk input{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#bag2 .finished button{
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: #6FDB4C;
+	color: black;
+	font-weight: bold;
+	border: none;
+	width: 70px;
+	height: 22px;
+}
+/* halaman home */
+
+header {
+	font-family: Harrington;
+	font-size: 17pt;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-weight: bold;
+	background-color: #33CC00;
+	height: 40px;
+}
+#home1 {
+	width: 30%;
+	height: 615px;
+	background-color: #CCCCCC;	
+	display: inline-block;
+}
+#home2 {
+	width: 70%;
+	height: 615px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+}
+#home1 .pp img{
+	width: 75px;
+}
+#home1 .pp {
+	margin-top: 10px;
+	margin-left: 20px; 
+	display: inline-block;
+	position: absolute;
+}
+#home1 .plus img{
+	width: 40px;
+}
+#home1 .plus{
+	display: inline-block;
+	position: absolute;
+	padding-left: 290px;
+	padding-top: 25px;
+}
+#home1 .titik3{
+	font-size: 30pt;
+	padding-top: 12px;
+	padding-left: 350px; 
+}
+ .bgcsearchC{
+	background-color: #F2FFF2;
+	width: 410px;
+	height: 50px;
+	margin-top: 28px;
+	padding-top: 18px;
+
+}
+ .bgcsearchC1{
+	background-color: white;
+	width: 300px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 5px;
+	position: absolute;
+}
+ .iconsearch img{
+	width: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+ .iconsearch{
+	width: 30px;
+	display: inline-block;
+}
+ .searchcontact input{
+	border: none;
+}
+#home1 .searchcontact{
+	font-size: 12pt;
+	font-family: Arial;
+	width: 300px;
+	margin-top: 6px;
+	position: absolute;
+	display: inline-block;
+}
+ .chat1{
+	background-color: white;
+	width: 395px;
+	height: 60px;
+	display: inline-block;
+	
+}
+#home1 .fkgagang img{
+	width: 60px;
+}
+ .fkgagang {
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+
+}
+ .contactgagang{
+	font-family: Berlin Sans FB;
+	font-size: 14pt;
+	margin-left: 75px;
+	display: inline-block;
+	margin-top: 12px;
+}
+ .chatgagang{
+ 	font-family: Berlin Sans FB Demi;
+	font-size: 12pt;
+	margin-left: 75px;
+	width: 250px;
+ }
+  .jamchatgagang{
+  	margin-top: 20px;
+  	font-family: Arial;
+  	font-size: 8pt;
+  	float: right;
+  }
+
+  .gg{
+  	width: 280px;
+  	display: inline-block;
+  }
+  .gg1{
+  	width: 100px;
+  	display: inline-block;
+  	position: absolute;
+  }
+ .jchatgagang{
+ 	width: 12px;
+ 	background-color: #F2FFF2;
+ 	font-size: 11pt;
+ 	text-align: center;
+ 	margin-top: 35px;
+ 	margin-left: 80px;
+ }
+ .signal img{
+ 	width: 100px;
+ }
+ .signal{
+ 	text-align: center;
+ 	margin-top: 200px;
+ }
+  .signal2{
+  	font-family: Calibri;
+  	font-size: 16pt;
+  	font-weight: bold;
+  	text-align: center;
+  }
+
+/* Halaman profil */
+#profil1{
+	width: 30%;
+	height: 615px;
+	background-color: #CCCCCC;
+	display: inline-block;
+}
+#profil2{
+	width: 70%;
+	height: 615px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+}
+ .bgprofil{
+	width: 410px;
+	height: 120px;
+	background-color: #33CC00; 
+	margin-top: 1px;
+}
+ .iconleft img{
+	width: 35px;
+}
+ .iconleft{
+	margin-left: 120px;
+	margin-top: 70px;
+	display: inline-block;
+	position: absolute;
+}
+ .profile{
+	font-size: 19pt;
+	font-family: Calibri;
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 70px;
+}
+ .bgppprofil{
+	background-color: #CCCCCC;
+	width: 410px;
+	height: 180px;
+}
+#profil1 .ppprofil img{
+	width: 150px;
+}
+#profil1 .ppprofil{
+	padding-top: 18px;
+	text-align: center;
+}
+#profil1 .bgattprofil1{
+	background-color: white;
+	width: 410px;
+	height: 52.5px;
+}
+#profil1 .bgattprofil2{
+	background-color: #CCCCCC;
+	width: 410px;
+	height: 52.5px;
+}
+#profil1 .attprofil{
+	font-size: 18px;
+	font-family: Berlin Sans FB Demi;
+	padding-top: 12px;
+	padding-left: 5px;
+	display: inline-block;
+	position: absolute;
+}
+#profil1 .iconedit img{
+	width: 25px;
+	position: absolute;
+}
+#profil1 .iconedit{
+	padding-top: 10px;
+	padding-left: 370px;
+}
+
+/* Halaman plus pencet */
+#home1 .bgcsearchContact{
+	background-color: #F2FFF2;
+	width: 410px;
+	height: 45px;
+	padding-top: 18px;
+}
+#home1 .bgcsearchContact1{
+	background-color: white;
+	width: 300px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+ .emotcium img{
+ 	width: 20px;
+}
+
+/* Halaman Favorite messages */
+ .favgagang{
+	font-family: Berlin Sans FB;
+	font-size: 12pt;
+	margin-left: 75px;
+	margin-top: 12px;
+	display: inline-block;
+	position: absolute;
+}
+ .iconpanah img{
+ 	width: 18px;
+}
+ .iconpanah{
+ 	margin-left: 180px;
+ 	margin-top: 12px;
+ 	display: inline-block;
+}
+ .tofavgagang{
+ 	font-family: Berlin Sans FB;
+	font-size: 12pt;
+	margin-top: 12px;
+	display: inline-block;
+	position: absolute;
+}
+ .chatfavgagang{
+ 	font-family: Berlin Sans FB Demi;
+	font-size: 12pt;
+	margin-left: 75px;
+	width: 250px;
+	display: inline-block;
+	position: absolute;
+}
+ .iconstar img{
+ 	width: 18px;
+}
+ .iconstar{
+ 	margin-left: 210px;
+ 	margin-top: 2px;
+ 	position: absolute;
+ 	display: inline-block;
+}
+ .jamfav{
+ 	font-size: 10pt;
+ 	font-family: Berlin Sans FB;
+ 	margin-left: 230px;
+ 	margin-top: 2px;
+ 	position: absolute;
+ 	display: inline-block;	
+} 
+ .tanggalfav{
+ 	font-size: 10pt;
+ 	font-family: Berlin Sans FB Demi;
+ 	margin-left: 130px;
+ 	margin-top: 14px;
+ 	position: absolute;
+ 	display: inline-block;	
+}
+/* Halaman settings pencet */
+.bgppsettings{
+	background-color: white;
+	height: 180px;
+}
+.ppsettings img{
+	width: 130px;
+}
+.ppsettings{
+	padding-top: 30px;
+	padding-left: 40px;
+	display: inline-block;
+}
+.namawa{
+	font-size: 14pt;
+	font-family: Berlin Sans FB Demi;
+	margin-top: 65px;
+	margin-left: 20px;
+	display: inline-block;
+	position: absolute;
+}
+.statuswa{
+	font-size: 14pt;
+	font-family: Berlin Sans FB Demi;
+	margin-top: 90px;
+	margin-left: 20px;
+	color: gray;
+	display: inline-block;
+	position: absolute;
+}
+.bgattsettings{
+	background-color: white;
+	width: 410px;
+	height: 60px;
+}
+.attsettings{
+	font-size: 14pt;
+	font-family: Berlin Sans FB Demi;
+	padding-left: 70px;
+	padding-top: 15px;
+}
+.iconsettings img{
+	width: 35px;
+}
+.iconsettings{
+	padding-top: 8px;
+	padding-left: 10px;
+	display: inline-block;
+	position: absolute;
+}
+/* Halaman stories pencet */
+#stories1{
+	width: 30%;
+	height: 616px;
+	background-color: #CCCCCC;
+	display: inline-block;
+}
+#stories2{
+	width: 70%;
+	height: 616px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+}
+.stories11{
+	width: 410px;
+	height: 120px;
+	background-color: #33CC00;
+	margin-top: 1px;
+}
+.stories12{
+	width: 410px;
+	height: 125px;
+	background-color: white;
+}
+.stories13{
+	width: 410px;
+	height: 368px;
+	background-color: white;
+	margin-top: 2px;
+}
+.folderpic img{
+	width: 25px;
+}
+.folderpic{
+	margin-left: 5px;
+	padding-top: 2px;
+	display: inline-block;
+	position: absolute; 
+}
+.textfolderpic{
+	font-size: 12pt;
+	font-family: Berlin Sans FB;
+	padding-left: 35px;
+	padding-top: 6px;
+}
+.ppstories img{
+	width: 75px;
+}
+.ppstories{
+	margin-left: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	position: absolute;
+}
+.textppstories{
+	font-size: 13pt;
+	font-family: Calibri;
+	margin-left: 110px;
+	margin-top: 40px;
+	color: gray;
+}
+.textstories{
+	font-size: 14pt;
+	font-family: Calibri;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-left: 22px;
+}
+.ppcstories img{
+	width: 70px;
+}
+.ppcstories{
+	margin-top: 6px;
+	padding-left: 14px;
+	display: inline-block;
+	position: absolute;
+}
+.namecstories{
+	font-size: 14pt;
+	font-family: Berlin Sans FB;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+.attcstories{
+	font-size: 12pt;
+	font-family: Calibri;
+	padding-left: 100px;
+	color: gray;
+	font-weight: bold;
+}
+
+/* Halaman notif pencet */
+#notif1{
+	width: 30%;
+	height: 615px;
+	background-color: #CCCCCC;
+	display: inline-block;
+}
+#notif2{
+	width: 70%;
+	height: 615px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+}
+.tickbox img{
+	width: 35px;
+}
+.tickbox{
+	margin-top: 30px;
+	margin-left: 25px;
+	display: inline-block;
+	position: absolute;
+}
+.textsounds{
+	font-size: 14pt;
+	font-family: Calibri;
+	margin-left: 70px;
+	margin-top: 35px;
+}
+.attshowp{
+	font-size: 12pt;
+	font-family: Calibri;
+	margin-top: 4px;
+	margin-left: 70px;
+	color: gray;
+}
+
+/* Halaman Chat Wallpaper */
+.wall11{
+	width: 100px;
+	height: 110px;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	position: absolute;
+}
+.wall12{
+	width: 100px;
+	height: 110px;
+	background-color: #FFCCCC;
+	margin-left: 150px;
+	margin-top: 10px;
+	display: inline-block;
+	position: absolute;
+}
+.wall13{
+	width: 100px;
+	height: 110px;
+	background-color: #FFCC99;
+	margin-left: 280px;
+	margin-top: 10px;
+}
+.wall21{
+	width: 100px;
+	height: 110px;
+	background-color: #FFFF99;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	position: absolute;
+}
+.wall22{
+	width: 100px;
+	height: 110px;
+	background-color: #FFFFCC;
+	margin-left: 150px;
+	margin-top: 10px;
+	display: inline-block;
+	position: absolute;
+}
+.wall23{
+	width: 100px;
+	height: 110px;
+	background-color: #99FF99;
+	margin-left: 280px;
+	margin-top: 10px;
+}
+.default{
+	font-size: 13pt;
+	font-family: Berlin Sans FB Demi;
+	text-align: center;
+	margin-top: 45px;
+	color: gray;
+}
+
+/* Halaman blocked pencet */
+#blocked1{
+	width: 30%;
+	height: 615px;
+	background-color: #CCCCCC;
+	display: inline-block;
+}
+#blocked2{
+	width: 70%;
+	height: 615px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+}
+.attblocked{
+	width: 410px;
+	height: 60px;
+	background-color: #EEEEEE;
+}
+.adduser img{
+	width: 30px;
+}
+.adduser{
+	margin-left: 15px;
+	padding-top: 12px;
+	display: inline-block;
+	position: absolute;
+}
+.textaddblocked{
+	font-size: 13pt;
+	font-family: Calibri;
+	margin-left: 55px;
+	padding-top: 16px; 
+}
+.a:link{
+	color: red;
+}
